@@ -20,11 +20,24 @@
 }
 .container{
     size: auto;
-    margin: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
     border-radius: 1rem;
     justify-content: space-around;
     
 
+}
+.container-pre-card{
+    background-color: #2737DA;
+    margin: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    width: 90%;
+    size: auto;
+
+    border-radius: 1rem;
+    justify-content: space-around;
 }
 .container-card{
     justify-content: space-around;
@@ -78,5 +91,28 @@ input:focus{
 }
 button:hover{
     background-color: #742a81;
+
+}
+
+@media screen and (max-width: 820px) {
+
+    hmlt{
+        font-size: 14;
+
+    }
+    .flex-container{
+        flex-direction: column;
+
+    }
+    .container{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;    
+    }
+    .wider-container{
+
+        margin-right: 10%;
+    }
+    
 
 }
